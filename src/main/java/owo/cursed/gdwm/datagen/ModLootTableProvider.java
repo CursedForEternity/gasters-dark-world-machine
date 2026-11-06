@@ -1,9 +1,9 @@
-package owo.bladecraftstudios.toomanyfountains.core.datagen;
+package owo.cursed.gdwm.datagen;
 
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
-import owo.bladecraftstudios.toomanyfountains.core.datagen.loot.ModBlocksLootTables;
+import owo.cursed.gdwm.datagen.loot.ModBlocksLootTables;
 
 import java.util.List;
 import java.util.Set;
@@ -14,5 +14,4 @@ public class ModLootTableProvider {
                 new LootTableProvider.SubProviderEntry(ModBlocksLootTables::new, LootContextParamSets.BLOCK)
         ));
     }
-
 }
